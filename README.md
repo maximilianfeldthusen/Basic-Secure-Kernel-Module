@@ -17,15 +17,6 @@ If you need **TPM or HSM support**, you might:
 - Use kernel TPM drivers (`tpm_tis`, `tpm_dev`).
 - Implement secure key storage and cryptographic operations.
 
-Would you like a deeper dive into TPM/HSM integration for Linux security?
-
-
-
-
-xxxxxxxxx
-
-
-
 Interfacing with a **Trusted Platform Module (TPM)** in your Linux kernel module requires using the **TPM kernel API** and interacting with TPM devices via `/dev/tpm0` or specialized kernel drivers like `tpm_tis`. Here’s a high-level approach:
 
 ### **1. Ensure Your System Has TPM Enabled**
@@ -107,14 +98,7 @@ For **stronger TPM functionality**, consider:
 
 Would you like help adding cryptographic operations to this TPM module?
 
-
-
-xxxxxxxxxx
-
-
-
-
-Sure! **TPM command structures** are fundamental to communicating with a **Trusted Platform Module (TPM)** and executing security-related tasks, such as encryption, authentication, and key management. TPM commands follow a standardized format defined by the **TPM 2.0 specification**, ensuring compatibility across hardware and software implementations.
+**TPM command structures** are fundamental to communicating with a **Trusted Platform Module (TPM)** and executing security-related tasks, such as encryption, authentication, and key management. TPM commands follow a standardized format defined by the **TPM 2.0 specification**, ensuring compatibility across hardware and software implementations.
 
 ### **1. TPM Command Structure Format**
 Each TPM command consists of a **header** and a **payload**, structured as follows:
