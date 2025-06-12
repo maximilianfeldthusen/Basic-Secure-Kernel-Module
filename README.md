@@ -137,13 +137,6 @@ You can send TPM commands using:
 Would you like an example of how to send TPM commands from a C program?
 
 
-
-
-xxxxxxxxx
-
-
-
-
 Great! Below is a **C program** that sends a **TPM2_GetRandom** command to a TPM device and reads back the random data.
 
 ### **Example: Sending TPM Command in C**
@@ -209,5 +202,4 @@ int main() {
 - **Use TPM Libraries**: Instead of raw byte commands, leverage **tpm2-tools** or **libtpm**.
 - **Perform Cryptographic Operations**: Encrypt/decrypt data using TPM keys.
 
-Would you like to modify this program to generate keys or encrypt data?
 
