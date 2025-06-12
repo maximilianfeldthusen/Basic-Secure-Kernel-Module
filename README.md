@@ -79,7 +79,7 @@ static void __exit tpm_module_exit(void) {
 module_init(tpm_module_init);
 module_exit(tpm_module_exit);
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("MIT");
 MODULE_AUTHOR("Your Name");
 MODULE_DESCRIPTION("Basic Linux Kernel Module for TPM Interaction");
 ```
