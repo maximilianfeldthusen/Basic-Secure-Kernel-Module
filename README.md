@@ -134,10 +134,7 @@ You can send TPM commands using:
 - **TPM user-space libraries (`tpm2-tools`, `libtpm`)** for simpler interaction
 - **Kernel TPM API** for deeper integration in a secure kernel module
 
-Would you like an example of how to send TPM commands from a C program?
-
-
-Great! Below is a **C program** that sends a **TPM2_GetRandom** command to a TPM device and reads back the random data.
+Below is a **C program** that sends a **TPM2_GetRandom** command to a TPM device and reads back the random data.
 
 ### **Example: Sending TPM Command in C**
 ```c
