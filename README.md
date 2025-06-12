@@ -96,8 +96,6 @@ For **stronger TPM functionality**, consider:
 - Implementing TPM command structures using `tpm_transmit()`.
 - Writing a user-space program using **`libtpm`** or **`tpm2-tools`** for more advanced interaction.
 
-Would you like help adding cryptographic operations to this TPM module?
-
 **TPM command structures** are fundamental to communicating with a **Trusted Platform Module (TPM)** and executing security-related tasks, such as encryption, authentication, and key management. TPM commands follow a standardized format defined by the **TPM 2.0 specification**, ensuring compatibility across hardware and software implementations.
 
 ### **1. TPM Command Structure Format**
